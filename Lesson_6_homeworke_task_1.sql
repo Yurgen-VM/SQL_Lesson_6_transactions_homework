@@ -20,7 +20,7 @@ BEGIN
     SET quentiSeconds  = (timeSecond % 60);
     SET result = CONCAT( quentiDays, " days ", quentiHours, " hours ", quentiMinutes, " minutes ", quentiSeconds, " seconds ");
        
-SELECT result;  
+	SELECT result;  
         
 END;
 
